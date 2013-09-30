@@ -1906,7 +1906,43 @@ and (min-device-width : 400px) {
 		padding-right:70px;
 	}
 }
-
+	
+	.SCMapMarker::after {
+		margin-top:0px!important;
+	}
+	body{
+		font-size:1.1em;
+	}
+	.title-box{
+		font-size:2.8em;
+	}
+	.description-text{
+		font-size:21px;
+		height:100px;
+	}
+	.time-button  {
+		padding-top:20px!important;
+		padding-bottom:20px!important;
+		font-size:14px!important;
+	}
+    .timetable table {
+		font-size: .72em;
+    }
+	.subtext {
+		font-size:.9em!important;
+	}
+	.table-two .company-marker-column div::after {
+		top:-18px;
+	}
+	.title-box{
+		font-size:2.7em;
+	}
+	#info .title-box {
+		font-size:3em;
+	}
+	body{
+		font-size:1.1em;
+	}
 /************************** THIN PHONES ************************************/
 /*
 @media screen and (min-width: 319px) and (max-height:500px) {
