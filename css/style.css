@@ -1846,8 +1846,7 @@ and (min-device-width : 400px) {
 }
 
 /* Nexus */
-
-@media only screen and (min-device-width : 360px) and (max-device-width : 598px) {	
+@media (min-device-width : 160px) and (max-device-width : 998px) {	
 	
 	.SCMapMarker::after {
 		margin-top:0px!important;
@@ -1888,7 +1887,6 @@ and (min-device-width : 400px) {
 }
 
 /****************************************************************************************** iPhone 5 */
-
 @media screen and (device-aspect-ratio: 40/71) {
 	#MAIN, #MAIN-TRANSITION{
 		min-height:530px;
