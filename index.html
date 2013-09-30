@@ -8,7 +8,9 @@
 		<link href="css/buttons.css" type="text/css" rel="stylesheet" />
 		<link href="css/alert.css" type="text/css" rel="stylesheet" />
         
+		<!-- not used in phonegap build 
 		<script src="cordova-1.8.1.js"></script>
+		-->
 		<script src='js/jQuery-1.9.1.js'></script>
 		<script src="js/xValidate.js"></script>
 		<script src='js/OOVACall.js'></script>
@@ -20,7 +22,7 @@
 		<script type="text/javascript">
 			var TRACKING = true;
 			var GA_TRACKING_ID = "UA-33990542-1";
-			var isPhoneGap = false;
+			var isPhoneGap = true;
             var APIS_COMPLETE = false; // becomes true when all APIs are loaded
             var $root = isPhoneGap ? "http://test.s17.sevacall.com/" : location.protocol + '//' + location.host + "/"; // hardcoded test.s17 into phonegap version for now
 			if(!isPhoneGap) {
