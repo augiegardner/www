@@ -1805,7 +1805,7 @@ and (min-device-width : 400px) {
 	}
 }
 /* Nexus (NEW) */
-@media only screen and (min-width : 600px) and (max-width : 603px) and (orientation: portrait) {
+@media only screen and (min-width : 591px) and (max-width : 593px) and (orientation: portrait) {
 
 	.SCMapMarker::after {
 		margin-top:0px!important;
