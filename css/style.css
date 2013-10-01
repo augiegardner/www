@@ -1808,7 +1808,7 @@ and (min-device-width : 400px) {
 
 /* Nexus */
 
-@media only screen and (min-device-width : 360px) and (max-device-width : 598px) {	
+@media (min-device-width : 360px) and (max-device-width : 598px) {	
 	
 	.SCMapMarker::after {
 		margin-top:0px!important;
@@ -1843,6 +1843,14 @@ and (min-device-width : 400px) {
 	#info .title-box {
 		font-size:3em;
 	}
+	
+    #description-button {
+    	padding:48px;
+    }
+	.description-text-wrap {
+		padding-left:115px;
+	}
+	
 	body{
 		font-size:1.1em;
 	}
@@ -1905,43 +1913,6 @@ and (min-device-width : 400px) {
 	.where-text-wrap {
 		padding-right:70px;
 	}
-}
-	
-.SCMapMarker::after {
-	margin-top:0px!important;
-}
-body{
-	font-size:1.1em;
-}
-.title-box{
-	font-size:2.8em;
-}
-.description-text{
-	font-size:21px;
-	height:100px;
-}
-.time-button  {
-	padding-top:20px!important;
-	padding-bottom:20px!important;
-	font-size:14px!important;
-}
-.timetable table {
-	font-size: .72em;
-}
-.subtext {
-	font-size:.9em!important;
-}
-.table-two .company-marker-column div::after {
-	top:-18px;
-}
-.title-box{
-	font-size:2.7em;
-}
-#info .title-box {
-	font-size:3em;
-}
-body{
-	font-size:1.1em;
 }
 
 /************************** THIN PHONES ************************************/
