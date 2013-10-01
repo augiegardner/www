@@ -1,16 +1,26 @@
+@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1920px) and (orientation: landscape) {
+	color:red;
+}
 
+@media screen (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (device-width: 1080px) and (orientation: portrait) {
+	color:blue;
+}
 /************************************************************************************************** NEW iPhone 4 media query */
-
+/*
 @media only screen 
     and (device-width:320px) 
     and (device-height:480px) {    
 	#MAIN, #MAIN-TRANSITION{
 		min-height:460px;
+		*/
 		/* min-height:416px; //this is the height when the bottom bar is blocking some of the screen */
+	/*
 	}
   .sep {
+  */
         /*margin-top:2em!important;*/
-        margin-top:2.3em!important;
+    /*
+    margin-top:2.3em!important;
     }
 
     .sep-text {
@@ -20,18 +30,21 @@
     .sep-shadow{
         margin-top:2.3em!important;
     }
-	
+	*/
     /*** Ummmm this isnt being triggered...? ***/
-    .button.sep {
+    /*
+	.button.sep {
         margin-top:1.7em!important /* to make up for the fact that buttons are 1.5em*/
+	/*
     }
     .timetable table {
 		font-size: .92em;
     }
 }
-
+*/
 
 /* Nexus */
+/*
 @media only screen and (min-device-width : 360px) and (max-device-width : 650px) {	
 	.SCMapMarker::after {
 		margin-top:0px!important;
@@ -85,30 +98,35 @@
 		font-size:1.1em;
 	}
 }
-
+*/
 /****************************************************************************************** iPhone 5 */
-
+/*
 @media screen and (device-aspect-ratio: 40/71) {
-
+*/
         /*currently being activated for buttons*/
+	/*
 	.sep {
         margin-top:2.3em!important;
     }
-	
+	*/
     /* seps for the header texts */
-    .sep-text {
+    /*
+	.sep-text {
         margin-top:2.2em!important;
     }
-	
+	*/
     /* currently for subtexts */
-    .sep-shadow{
+    /*
+	.sep-shadow{
         margin-top:3.3em!important;
     }
-	
+	*/
     /*** Ummmm this isnt being triggered...? ***/
-    .button.sep {
+    /*
+	.button.sep {
         margin-top:1.7em!important /* to make up for the fact that buttons are 1.5em*/
-    }
+    /*
+	}
     #description-button {
     	padding:49px;
     }
@@ -117,3 +135,4 @@
     }
     
 }
+*/

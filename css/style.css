@@ -182,10 +182,8 @@ textarea.deactive {
 }
 
 .GPUAccel, .GPUAccel div:not(.noGPUAccel) {
-	/*
 	-webkit-transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
-	*/
 }
 
 .noGPUAccel {
