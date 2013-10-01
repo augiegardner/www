@@ -1784,13 +1784,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9ffffff', e
 		font-size:3em;
 	}
 	
-    #description-button {
-    	padding:48px;
-    }
-	.description-text-wrap {
-		padding-left:115px;
-	}
-	
 	body{
 		font-size:1.1em;
 	}
