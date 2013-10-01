@@ -1748,68 +1748,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9ffffff', e
 	margin-top:20px;
 }
 
-/*
-@media only screen 
-and (min-device-width : 380px) {
-	body{
-		font-size:16px;
-	}
-
-}
-
-@media only screen 
-and (min-device-width : 400px) {
-	.subtext {
-		font-size:.85em;
-	}
-
-}
-
-@media only screen and (max-device-width: 320px){
-	.subtext {
-		font-size:.8em!important;
-	}
-}
-*/
-
-/************************************************************************************************** NEW iPhone 4 media query */
-
-@media only screen 
-    and (device-width:320px) 
-    and (device-height:480px) {
-    /** SPECIFIC MINIMUM HEIGHTS HAVE BEEN MOVED TO phoneGap.css and noPhoneGap.css as of August 26th 2013 **/
-	body {
-		font-size:.8em;
-	}
-	.subtext {
-		font-size:1em!important;
-	}
-	.info-box{
-		font-size:.72em;
-	}
-	.info-box input {
-		font-size: 2em;
-		padding: .4em!important;
-	}
-	.info-box-info-wrapper {
-		padding-right:5.4em;
-	}
-    .timetable table {
-		font-size: .91em;
-    }
-	.timetable table .lefthead {
-		padding:0px;
-	}
-	.table-two .company-marker-column div::after {
-		top:-16px;
-	}
-}
-
-
 /* Nexus */
-
-@media (min-device-width : 360px) and (max-device-width : 598px) {	
-	
+@media screen and (min-device-width : 360px) and (max-device-width : 598px) {	
 	.SCMapMarker::after {
 		margin-top:0px!important;
 	}
@@ -1855,6 +1795,39 @@ and (min-device-width : 400px) {
 		font-size:1.1em;
 	}
 }
+
+/************************************************************************************************** NEW iPhone 4 media query */
+@media screen 
+    and (device-width:320px) 
+    and (device-height:480px) {
+    /** SPECIFIC MINIMUM HEIGHTS HAVE BEEN MOVED TO phoneGap.css and noPhoneGap.css as of August 26th 2013 **/
+	body {
+		font-size:.8em;
+	}
+	.subtext {
+		font-size:1em!important;
+	}
+	.info-box{
+		font-size:.72em;
+	}
+	.info-box input {
+		font-size: 2em;
+		padding: .4em!important;
+	}
+	.info-box-info-wrapper {
+		padding-right:5.4em;
+	}
+    .timetable table {
+		font-size: .91em;
+    }
+	.timetable table .lefthead {
+		padding:0px;
+	}
+	.table-two .company-marker-column div::after {
+		top:-16px;
+	}
+}
+
 
 /****************************************************************************************** iPhone 5 */
 
