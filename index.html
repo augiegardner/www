@@ -294,7 +294,7 @@ Removed 8.5.2013 and added "Save" button
             }
             
             function blipsRotate() {
-            
+				return afterBlipping(); // Removing this functionality for right now.  Dealing with andorids, not optimal, etc.
                 if(screen.height <= 480) { // iphone 4 == 480
                 	var splash = document.getElementById("splashImg-iPhone4");
              		var blipImages = [
